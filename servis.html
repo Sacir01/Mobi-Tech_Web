@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servis</title>
+    <link rel="stylesheet" href="servisstyle.css">
+</head>
+<body>
+    <div id="logo">
+        <div>
+            <a href="mobitechhome.html" id="pocetna"> Pocetna</a>
+        </div>
+        <div id="mobi">
+            MOBI
+        </div>
+        <div id="minus">
+            -
+        </div>
+        <div id="tech">
+            Tech
+        </div>
+        <div id="servis">
+            Servis
+        </div>
+    </div>
+    <div id="FormForRepair">
+        <form action="">
+        <div id="model">
+            Model telefona:
+            <input type="text" id="modelinput">
+        </div>
+        <div id="problem">
+            <label for="problem-select">
+                Odaberite kvar:
+            </label>
+            <select name="kvar" id="problem-select">
+                <option value="0">Odaberi kvar:</option>
+                <option value="1">Ekran</option>
+                <option value="2">Staklo</option>
+                <option value="3">Baterija</option>
+                <option value="4">Punjenje</option>
+                <option value="5">Sistem</option>
+                <option value="6">Ostalo</option>
+            </select>
+        </div>
+        <div id="description">
+            Opis Kvara:
+        </div>
+        <div id="textdescription">
+            <textarea name="problemdescription" id="inputdescription" cols="40" rows="12"></textarea>
+        </div>
+        <div id="serialnumber">
+            Unesite IMEI vaseg uredjaja:
+            <input type="number" id="imei">
+        </div>
+        <div>
+            Vase ime i prezime:
+            <input type="text" name="nameandsurname" id="name">
+        </div>
+        <div>
+            Vas broj telefona:
+            <input type="number" name="phonenumber" id="phonenumber">
+        </div>
+        <div>
+            Vasa email adresa
+            <input type="email" id="emailadress">
+        </div>
+        <div id="warranty">
+            Odaberite sliku vase garancije, slika mora sadrzavati garanciju u cijelosti (zadnju stranu) sa vasim podatcima.
+            <input type="file" name="img" id="img" accept="image/*" value="Odaberi fotografije"> 
+        </div>
+        <div>
+            <input type="submit" name="sub" id="sub" value="Posalji zahtjev za servis">
+        </div>
+        </form>
+    </div>
+</body>
+</html>

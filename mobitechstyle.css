@@ -1,0 +1,265 @@
+html {
+   background-color: rgba(0, 0, 0, 0.7);
+}  
+.home {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+ #logo {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    grid-template-rows: 100%;
+ }
+ #mobi {
+    text-align: right;
+    color:red;
+    height: 100%;
+    font-size: 5vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+   }
+ #minus {
+    text-align: center;
+    color: royalblue;
+    size: 100%;
+    font-size: 5vw;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+ #tech {
+    text-align: left;
+    color: royalblue;
+    size: 100%;
+    font-size: 5vw;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+ #greeting {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 10px 10px 10px 10px;
+   text-align: center;
+   font-size: 3vw;
+   font-style: italic;
+   font-weight: bold;
+   color: royalblue;
+ }
+ #menu {
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+ }
+ #prodaja {
+    text-align: center;
+    color: black;
+    font-size: 4vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 2px;
+    height: 100%;
+    width: 100%; 
+    border-image: linear-gradient(60deg, rgb(215, 107, 237) 11.2%, rgb(157, 69, 225) 32.6%, rgb(82, 153, 211) 62.7%, rgb(40, 207, 240) 100%) 1;
+   }
+ #popravka{
+    text-align: center;
+    color: black;
+    font-size: 4vw;
+    border-radius: 1vw;
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+    border-image: linear-gradient(160deg, rgb(215, 107, 237) 11.2%, rgb(157, 69, 225) 32.6%, rgb(82, 153, 211) 62.7%, rgb(40, 207, 240) 100%) 1; 
+   }
+ #servis{
+    text-align: center;
+    color: black;
+    font-size: 4vw;
+    border-radius: 1vw;
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+    border-image: linear-gradient(210deg, rgb(215, 107, 237) 11.2%, rgb(157, 69, 225) 32.6%, rgb(82, 153, 211) 62.7%, rgb(40, 207, 240) 100%) 1;
+ }
+ #search{
+    height: 100%;
+    width: 100%;
+    border-style: bold;
+    border-radius: 1vw;
+ }
+ .tab1{ flex-grow: 1;
+ }
+.product {
+   display: grid;
+   grid-template-columns: 40% auto;
+   font-family:Arial, Helvetica, sans-serif;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   border-bottom: solid;
+   border-color: aliceblue;
+
+}
+.proddescription{
+   display: grid;
+   grid-template-rows: 20% 60% 20%;
+   font-size: 3vw;
+
+}
+.prodname{
+   text-align: left;
+   font-size: 4vw;
+}
+.prodprice{
+   text-align: left;
+   color: red;
+   text-decoration: solid;
+   font-size: 4vw;
+   border-radius: 1vw;
+   border-style: bold;
+   border-color: red;
+   width: auto;
+   height: auto;
+}
+.prodspecs{
+   display: grid;
+   grid-template-rows: 50% 50%;
+}
+.toprow{
+   display: flex;
+}
+.bottomrow{
+   display: flex;
+}
+.prodstorage{
+   flex-basis: 33%;
+}
+.prodmemory{
+   flex-basis: 33%;
+}
+.prodcpu{
+   flex-basis: 33%;
+}
+.prodcharging{
+   flex-basis: 33%;
+}
+.prodcamera{
+   flex-basis: 33%;
+}
+.prodbrand{
+   flex-basis: 33%;
+}
+.prodphoto{
+   align-items: center;
+   text-align: right;
+}
+ #mapninfo {
+   height: 420px;
+ }
+ a {
+   text-decoration: none;
+   color: #000;
+ }
+ #contacts {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+ }
+ .contact {
+   font-size: medium;
+   width: 100%;
+   background-color: rgba(240, 255, 255, 0.20);
+   border-style: solid;
+   border-radius: 1vw;
+   margin-top: 10px;
+ }
+ .nameofcontact {
+   font-size: 4vw;
+ }
+ .contactinfo {
+   font-size: 3vw;
+ }
+.accordion .contact {
+   position: relative;
+   margin: 10px 10px;
+}
+.accordion .nameofcontact {
+   position: relative;
+   padding: 10px 0;
+}
+.accordion .nameofcontact::before {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+}
+.accordion .contactinfo {
+   position: relative;
+   background-color: white;
+   height: 0;
+   text-align: justify;
+   width: 100%;
+   overflow: hidden;
+   transition: 0.5s;
+}
+.accordion .contact.active .contactinfo {
+   height: 100px;
+}
+
+@media screen and (max-width: 600px) and (min-width:400px){
+   .home{
+      display:flex;
+      flex-wrap: wrap;
+   }
+   #logo {
+      display: grid;
+      grid-template-columns: 20% 2% 93%;
+      width: 80%;
+   }
+   #greeting {
+      display:none;
+   }
+   #menu {display: none;
+   }
+   .product {
+      display: flex;
+      border: solid rgba(255, 255, 255, 0.5);
+      border-left: none;
+      border-right: none;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      color: white;
+      font-size: 30;
+   }
+   .prodspecs{
+      display: block;
+   }
+   .prodprice{
+      text-align: center;
+      font-size: 50;
+      border: solid;
+      background-color: rgba(255, 0, 0, 0.4);
+      color: white;
+      padding: 10px 10px 10px 10px;
+      margin: 10px 10px 10px 10px;
+   }
+   .proddescription{
+      display: grid;
+      grid-template-rows: auto;
+      row-gap: 10px;
+   }
+}
