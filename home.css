@@ -1,0 +1,952 @@
+a{
+    text-decoration: none;
+}
+@media  screen and (max-width: 480px) {
+    #mediatablet{
+        display: none;
+    }
+    #mediadesktop{
+        display: none;
+    }
+
+    body{
+        display: flexbox;
+    }
+    #topphone{
+        background-color: aqua;
+        display: flex;
+        height: 50px;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+
+
+    .topnav {
+        overflow: hidden;
+        background-color: rgba(128, 123, 123, 0.541);
+        position: relative;
+        border-radius: 10px;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: rgba(0, 0, 0, 0.4);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 20px;
+        width: 40px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: aqua;
+        color: white;
+      }
+
+    #logophone{
+        color: silver;
+        font-size: 40;
+        text-align: center;
+    }
+    #featuredphone{
+        display: flexbox;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 1200px;
+        padding-top: 20px;
+    }
+    #topproductphone{
+        background-color: rgba(0, 255, 255, 0.5);
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    #topproductdescriptionphone{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        color: black;
+    }
+
+    #topproductpicturephonejpg{
+        border-radius: 10px;
+    }
+
+    #secondtopproductphone{
+        background-color: rgba(252, 215, 52);
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 55% 40%;
+    }
+
+    #secondtopproductphonejpg{
+        border-radius: 10px;
+    }
+
+    #secondtopproductdescriptionphone{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        color: black;
+        font-weight: bold;
+    }
+
+    #thirdtopproductphone{
+        background-color: rgba(238, 229, 254);
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    #thirdtopproductphonejpg{
+        border-radius: 10px;
+    }
+
+    #thirdtopproductdescriptionphone{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        color: black;
+        font-weight: bold;
+        border: solid;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        border-color: blueviolet;
+        border-width: 1px;
+    }
+
+
+    #productcategorylinkphone{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        width: 100%;
+        height: 350px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .categorylinkphone{
+        width: 95%;
+        border: solid;
+        border-color: red;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: -5px;
+        border-width: 2px;
+        height: 150px;
+    }
+
+    .categorylinkphone{
+        text-align: center;
+    }
+
+    #salebannerphone{
+        width: 100%;
+        height: 50px;
+        font-size: xx-large;
+        font-weight: 600;
+        color: white;
+        background-color: red;
+        text-align: center;
+        border: solid;
+        border-color: white;
+        border-radius: 25px;
+        margin-bottom: 5px;
+    }
+
+    #productsonsalephone{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: auto;
+        border: solid;
+        border-left: none;
+        border-right: none;
+        border-color: rgba(255, 0, 0);
+        border-width: 1px;
+        color: red;
+        text-align: center;
+        font-size:xx-large;
+    }
+
+    #firstproductonsalephone{
+        background-color:rgba(128, 128, 128, 0.1);
+        border-radius: 5px;
+    }
+
+    #secondproductonsalephone{
+        background-color:rgba(128, 128, 128, 0.1);
+        border-radius: 5px;
+    }
+
+    .productonsalephone{
+        margin: 5px 5px 5px 5px;
+    }
+
+    #newgadgetphone{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(206, 206, 206);
+        margin-top: 20px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 70% 30%;
+        text-align: center;
+    }
+
+    #newgadgetimagephonejpg{
+        border-radius: 10px;
+    }
+
+    #newgadgetnamephone{
+        font-size: x-large;
+    }
+
+    #newgadgetdescriptionphone{
+        font-size: large;
+    }
+
+    #newgadgetpricephone{
+        font-size: xx-large;
+        color: red;
+    }
+
+    #aboutusphone{
+        width: 100%;
+        height: auto;
+        background-color: rgba(240, 255, 255, 0.5);
+        margin-top: 20px;
+        border-width: 1px;
+        border: solid;
+        border-right: none;
+        border-left: none;
+        border-color: gray;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+
+    #aboutusphoneh1{
+        font-size: xx-large;
+        color: red;
+    }
+
+    #aboutusphoneh2{
+        font-size: large;
+    }
+
+    #aboutusphoneh3{
+        font-size: x-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #ratingphone{
+        margin-top: 20px;
+        color: red;
+        font-size: large;
+    }
+
+    #ratingohoneh1 {
+        margin-top: 20px;
+        font-size: large;
+        text-align: center;
+    }
+
+    #ratingphoneh2 {
+        margin-top: 20px;
+        font-size: medium;
+        text-align: center;
+    }
+
+    #companycomentphone{
+        margin-top: 30px;
+        text-align: center;
+        color: black;
+        border: solid;
+        border-width: 1px;
+    }
+
+    #contactusphone{
+        border: solid;
+        border-color: black;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        margin-top: 30px;
+        width: 100%;
+        height: 400px;
+        border-width: 1px;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 20% 10% 10% 10% 30%;
+    }
+
+    #contactusphoneh1{
+        font-size: 30;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #contactusphoneh2{
+        font-size: 40;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+    }
+
+    #contactusworkingoursphone {
+        font-size: 100;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width:939px){
+
+    #mediaphone{
+        display: none;
+    }
+
+    #mediadesktop{
+        display: none;
+    }
+
+    #toptablet{
+        width: 100%;
+        height: 350px;
+    }
+
+    #logotablet{
+        width: 100%;
+        background-color: rgba(0, 255, 255, 0.5);
+        font-size: 60px;
+        height: 100px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #menutablet{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 48% 48%;
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 40px;
+        justify-content: space-evenly;
+        align-content: space-between;
+        margin-bottom: 80px;
+    }
+
+    #phonestablet{
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        color: black;
+        background-color: pink;
+    }
+
+    #accesoriestablet{
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5px;
+        color: black;
+        background-color: rgba(65, 105, 225, 0.6);
+    }
+
+    #laptopstablet{
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        color: black;
+        background-color: rgba(247, 247, 43, 0.555);
+    }
+    
+    #earphonestablet{
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        color: black;
+        background-color: rgba(127, 255, 212, 0.7);
+    }
+
+    #featuredproductstablet{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    #firstfeaturedtablet{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-radius: 20px;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(205, 236, 255);
+        margin-bottom: 25px;
+    }
+    
+    #firstfeaturedtablet img{
+        border-radius: 20px;
+    }
+
+    #secondfeaturedtablet{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(244, 214, 62);
+        margin-bottom: 25px;
+        background-color: rgb(244, 214, 62);
+    }
+
+    #secondfeaturedtablet img{
+        border-radius: 20px;
+    }
+
+    #thirdfeaturedtablet{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(192, 104, 189);
+        margin-bottom: 25px;
+        background-color: rgb(238, 229, 254);
+    }
+
+    #thirdfeaturedtablet img{
+        border-radius: 25px;
+    }
+
+    .featureddescription{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #productcategorylinktablet{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #productsonsaletablet{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: auto;
+        border: solid;
+        border-left: none;
+        border-right: none;
+        border-color: rgba(255, 0, 0);
+        border-width: 1px;
+        color: red;
+        text-align: center;
+        font-size:xx-large;
+        margin-bottom: 40px;
+    }
+
+    #salebannertablet{
+        width: 100%;
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #firstproductonsaletablet{
+        background-color:rgba(128, 128, 128, 0.1);
+        border-radius: 5px;
+    }
+
+    #secondproductonsaletablet{
+        background-color:rgba(128, 128, 128, 0.1);
+        border-radius: 5px;
+    }
+
+    .productonsaletablet{
+        margin: 5px 5px 5px 5px;
+    }
+
+    #newgadgettablet{
+        width: 100%;
+        height: 700px;
+        background-color: rgb(206, 206, 206);
+        margin-top: 20px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 70% 30%;
+        text-align: center;
+    }
+
+    #newgadgetimagetabletjpg{
+        border-radius: 10px;
+    }
+
+    #newgadgetnametablet{
+        font-size: x-large;
+    }
+
+    #newgadgetdescriptiontablet{
+        font-size: large;
+    }
+
+    #newgadgetpricetablet{
+        font-size: xx-large;
+        color: red;
+    }
+
+    #aboutusphone{
+        width: 100%;
+        height: auto;
+        background-color: rgba(240, 255, 255, 0.5);
+        margin-top: 20px;
+        border-width: 1px;
+        border: solid;
+        border-right: none;
+        border-left: none;
+        border-color: gray;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+
+    #aboutusphoneh1{
+        font-size: xx-large;
+        color: red;
+    }
+
+    #aboutusphoneh2{
+        font-size: large;
+    }
+
+    #aboutusphoneh3{
+        font-size: x-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #ratingphone{
+        margin-top: 20px;
+        color: red;
+        font-size: 30px;
+    }
+
+    #ratingohoneh1 {
+        margin-top: 40px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #ratingphoneh2 {
+        margin-top: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #ceonamephone{
+        font-size: 60px;
+    }
+
+    #comentohoneh1{
+        font-size: 40px;
+    }
+
+    #comentphoneh2{
+        font-size: 40px;
+    }
+
+    #companycomentphone{
+        margin-top: 50px;
+        text-align: center;
+        color: black;
+        border: solid;
+        border-width: 1px;
+        margin-bottom: 200px;
+    }
+
+    #contactusphone{
+        border: solid;
+        border-color: black;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        margin-top: 30px;
+        width: 100%;
+        height: 400px;
+        border-width: 1px;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 20% 10% 10% 10% 30%;
+    }
+
+    #contactusphoneh1{
+        font-size: 30;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #contactusphoneh2{
+        font-size: 40;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+    }
+
+    #contactusworkingoursphone {
+        font-size: 100;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 940px) {
+
+    #mediaphone{
+        display: none;
+    }
+
+    #mediatablet{
+        display: none;
+    }
+
+    #mediadesktop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #topdesktop{
+        height: 80px;
+        width: 100%;
+    }
+
+    #bardesktop{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        background-color: rgba(0, 255, 255, 0.5);
+    }
+
+    #logodesktop{
+        font-size: 60px;
+    }
+    
+    #menudesktop{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+    li{
+        list-style: none;
+        text-align: center;
+        font-size: 30px;
+        border: solid;
+        border-top: none;
+        border-bottom: none;
+        border-color: black;
+        border-width: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 100%;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    #featureddesktop{
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #topproductdesktop{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-radius: 20px;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(205, 236, 255);
+        margin-bottom: 25px;
+    }
+
+    #topproductdescriptiondesktop{
+        font-size: 24px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    #secondtopproductdesktop{
+        width: 40%;
+        height: auto;
+        border-radius: 20px;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(244, 214, 62);
+        margin-bottom: 25px;
+        background-color: rgb(244, 214, 62);
+    }
+
+    #secondtopproductdescriptiondesktop{
+        font-size: 24px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    #thirdtopproductdesktop{
+        width: 55%;
+        height: 100%;
+        border-radius: 20px;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(192, 104, 189);
+        margin-bottom: 25px;
+        background-color: rgb(238, 229, 254);
+    }
+    #thirdtopproductdescriptiondesktop{
+        font-size: 24px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    img{
+        border-radius: 20px;
+    }
+    #productcategorylinktablet{
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #salebannertablet{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 50px;
+        width: 100%;
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    #productsonsaletablet{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        border: solid;
+        border-left: none;
+        border-right: none;
+        border-color: rgba(255, 0, 0);
+        border-width: 1px;
+        color: red;
+        text-align: center;
+        font-size:xx-large;
+        margin-bottom: 40px;
+    }
+
+    #firstproductonsaletablet{
+        background-color:rgba(128, 128, 128, 0.1);
+        border-radius: 5px;
+    }
+
+    #secondproductonsaletablet{
+        background-color:rgba(128, 128, 128, 0.1);
+        border-radius: 5px;
+    }
+
+    .productonsaletablet{
+        margin: 5px 5px 5px 5px;
+    }
+
+    #newgadgettablet{
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        background-color: rgb(206, 206, 206);
+        margin-top: 20px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 70% 30%;
+        text-align: center;
+    }
+
+    #newgadgetimagetabletjpg{
+        border-radius: 10px;
+    }
+
+    #newgadgetnametablet{
+        font-size: x-large;
+    }
+
+    #newgadgetdescriptiontablet{
+        font-size: large;
+    }
+
+    #newgadgetpricetablet{
+        font-size: xx-large;
+        color: red;
+    }
+
+    #aboutusphone{
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        background-color: rgba(240, 255, 255, 0.5);
+        margin-top: 20px;
+        border-width: 1px;
+        border: solid;
+        border-right: none;
+        border-left: none;
+        border-color: gray;
+        padding-top: 20px;
+        border-radius: 5px;
+    }
+
+    #aboutusphoneh1{
+        font-size: xx-large;
+        color: red;
+    }
+
+    #aboutusphoneh2{
+        font-size: large;
+    }
+
+    #aboutusphoneh3{
+        font-size: x-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #ratingphone{
+        margin-top: 20px;
+        color: red;
+        font-size: 30px;
+    }
+
+    #ratingohoneh1 {
+        margin-top: 40px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #ratingphoneh2 {
+        margin-top: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #ceonamephone{
+        font-size: 60px;
+    }
+
+    #comentohoneh1{
+        font-size: 40px;
+    }
+
+    #comentphoneh2{
+        font-size: 40px;
+    }
+
+    #companycomentphone{
+        margin-top: 50px;
+        text-align: center;
+        color: black;
+        border: solid;
+        border-width: 1px;
+        margin-bottom: 200px;
+    }
+
+    #contactusphone{
+        border: solid;
+        border-color: black;
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        margin-top: 30px;
+        width: 100%;
+        height: 400px;
+        border-width: 1px;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 20% 10% 10% 10% 30%;
+    }
+
+    #contactusphoneh1{
+        font-size: 30;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #contactusphoneh2{
+        font-size: 40;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+    }
+
+    #contactusworkingoursphone {
+        font-size: 100;
+        text-align: center;
+    }
+}
